@@ -1,7 +1,10 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
+
+/* BARRA DE NAVEGACION */
 
 .ancho {
     width: 1000px;
@@ -13,9 +16,6 @@
     padding: 10px 0;
 }
 
-/* .alineacionNav {
-    text-align: center;
-} */
 
 #logo {
     display: inline-block;
@@ -57,4 +57,247 @@
 
 .nav ul li a:hover {
     font-weight: bold;
+}
+
+/* PRIMERA SECCION */
+
+.hero {
+  background-image: url('src/Img/ImagenHero.jpeg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 100%;
+}
+
+.heroContenido {
+  background-color: rgba(60, 5, 40, 0.6);
+  height: 600px;
+  padding: 24px;
+  margin:auto;
+  text-align: center;
+  color: #fff;
+}
+
+.hero h2 {
+  font-size: 42px;
+  margin: 0 auto 20px;
+  padding-top: 180px;
+}
+
+.hero p {
+  width: 520px;
+  margin: 0 auto 30px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.btnPrimario {
+  display: inline-block;
+  background-color: #ED0B8C;
+  color: #fff;
+  font-weight: 700;
+  padding: 14px 32px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.btnPrimario:hover {
+  background-color: #F5E62F;
+  color: #ED0B8C;
+  transition: 0.4s;
+}
+
+/* SEGUNDA SECCION */
+
+.caracteristicas {
+  background-color: #ED0B8C;
+  padding: 80px 60px;
+}
+
+.caracteristicasImg {
+  display: inline-block;
+  width: 38%;
+  vertical-align: top;
+  margin-left: 50px;
+  margin-right: 30px;
+}
+
+.juicyGif {
+  width: 450px;
+  height: 450px;
+  border-radius: 16px;
+  border: none;
+  display: block;
+    margin: 0 auto;
+}
+
+.caracteristicasContenido {
+  display: inline-block;
+  vertical-align: middle;
+  margin: auto;
+}
+
+.caracteristicasContenido h3 {
+  font-size: 26px;
+  color: #F5E62F;
+  margin-bottom: 25px;
+  margin-top: 60px;
+}
+
+.caracteristicasContenido ul {
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.caracteristicasContenido li {
+  color: #ffffff;
+  font-size: 16px;
+  margin: 15px;
+}
+
+.btnSecundario {
+  display: inline-block;
+  background-color: #F5E62F;
+  color: #B80A6E;
+  font-weight: 700;
+  padding: 14px 32px;
+  border-radius: 30px;
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+.btnSecundario:hover {
+  background-color: #B80A6E;
+  color: #F5E62F;
+  transition: 0.4s;
+}
+
+/* TERCERA SECCION */
+
+.masVendido {
+  text-align: center;
+  padding: 80px 60px;
+}
+
+.masVendido h3 {
+  font-size: 30px;
+  color: #ED0B8C;
+  margin-bottom: 10px;
+}
+
+.producto {
+  display: inline-block;
+  width: 350px;
+  margin: 50px 20px;
+  vertical-align: top;
+}
+
+.latasImg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.productoNombre {
+  padding: 16px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 22px;
+  border-radius: 0 0 12px 12px;
+}
+
+.rojo {
+  background-color: #C1272D;
+  color: #FFD4C8;
+  border: solid 4px #FFD4C8;
+}
+
+.rosa {
+  background-color: #ED0B8C;
+  color:#F5E62F;
+  border: solid 4px #F5E62F;
+}
+
+
+.naranja {
+  background-color: #F5821F;
+  color: #FFEAB4;
+  border: solid 4px #FFEAB4;
+}
+
+/* ULTIMA SECCION  */
+
+.comunidad {
+  background-image: url('src/Img/Fondorosa.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 80px 60px;
+}
+
+.comunidad h3 {
+  font-size: 28px;
+  color: #C1272D;
+  margin-bottom: 30px;
+}
+
+.fotoComunidad {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: #ED0B8C;
+  padding: 50px 60px;
+  margin-top: 90px;
+}
+
+.footerLogo {
+  display: inline-block;
+  width: 380px;
+}
+
+.footerInfo {
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+}
+
+.footerRedes {
+  display: inline-block;
+  width: 400px;
+  text-align: center;
+}
+
+.footerTitulo {
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.footerInfo p {
+  color: #ffffff;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.footerRedes p {
+  color: #ffffff;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.redIcon {
+  width: 36px;
+  height: 36px;
+  margin-right: 10px;
+}
+
+.logoFooter {
+  width: 150px;
+  height: auto;
 }
