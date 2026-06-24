@@ -117,10 +117,9 @@
 
 .caracteristicasImg {
   display: inline-block;
-  width: 38%;
   vertical-align: top;
-  margin-left: 50px;
-  margin-right: 30px;
+  margin-left: 100px;
+  margin-right: 80px;
 }
 
 .juicyGif {
@@ -129,7 +128,6 @@
   border-radius: 16px;
   border: none;
   display: block;
-    margin: 0 auto;
 }
 
 .caracteristicasContenido {
@@ -146,7 +144,6 @@
 }
 
 .caracteristicasContenido ul {
-  padding: 0;
   margin-bottom: 30px;
 }
 
@@ -262,7 +259,7 @@
 
 .footerInfo {
   display: inline-block;
-  width: 40%;
+  width: 600px;
   text-align: center;
 }
 
